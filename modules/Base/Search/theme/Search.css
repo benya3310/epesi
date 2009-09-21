@@ -1,0 +1,80 @@
+table#Base_Search__Search span.error {
+	color: red;
+}
+
+table#Base_Search__Search td.header_tail {
+	color: #FFFFFF;
+	background-color: #336699;
+	background-image: url("images/header-blue.gif");
+	background-repeat: repeat-x;
+	font-weight: bold;
+	width: 200px;
+	height: 20px;
+	border: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table#Base_Search__Search td.header_tail span.header {
+	color: #FFFFFF;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+table#Base_Search__Search input {
+	color: #000000;
+	border: 1px solid #b3b3b3;
+	/*width: 173px;*/
+	width: 171px;
+	height: 16px;
+	font-size: 11px;
+}
+
+table#Base_Search__Search td.input {
+	padding-right: 0px;
+}
+
+table#Base_Search__Search td.submit {
+	padding-left: 2px;
+}
+
+table#Base_Search__Search input.mini_submit {
+	color: #FFFFFF;
+	width: 100px;
+	height: 20px;
+    background-image: url('images/button-search.gif');
+	font-size: 11px;
+	border: none;
+	display: block;
+	float: right;
+	cursor: pointer;
+}
+
+table#Base_Search__Search input.mini_submit:hover {
+    background-image: url('images/button-search-hover.gif');
+}
+
+table#Base_Search__Search input.submit {
+	color: #FFFFFF;
+	border: 0px;
+	width: 100px;
+	height: 20px;
+    background-image: url('images/button-search.gif');
+	font-size: 11px;
+}
+
+table#Base_Search__Search input.submit:hover {
+    background-image: url('images/button-search-hover.gif');
+}
+
+table#Base_Search__Search .label {
+	color: #000000;
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+table#Base_Search__Search td.data select {
+	font-size: 11px;
+	vertical-align: middle;
+}

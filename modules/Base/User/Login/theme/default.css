@@ -1,0 +1,128 @@
+table#Base_User_Login {
+	border: 1px solid #FFFFFF;
+	font-size: 11px;
+	background-color: #E0E0E0;
+}
+
+table#Base_User_Login .gradient {
+	background-color: #E0E0E0;
+	background-image: url("images/login-background-2.png");
+	background-repeat: repeat-x
+}
+
+table#Base_User_Login td.title {
+	color: #336699;
+	font-size: 20px;
+	text-align: center;
+	height: 35px;
+}
+
+table#Base_User_Login td.title span {
+	vertical-align: super;
+	font-size: 9px;
+}
+
+table#Base_User_Login a {
+	color: #777777;
+	font-size: 11px;
+}
+
+table#Base_User_Login span.error {
+	color: red;
+	font-size: 11px;
+}
+
+table#Base_User_Login td.error {
+	text-align: center;
+	height: 20px;
+}
+
+table#Base_User_Login td.input input {
+	color: #000000;
+	border: 1px solid #B3B3B3;
+	width: 160px;
+}
+
+table#Base_User_Login input.submit {
+	color: #FFFFFF;
+	border: 0px;
+	width: 100px;
+	height: 20px;
+	background-image: url("images/button.gif");
+	vertical-align: middle;
+}
+
+table#Base_User_Login input.submit:hover {
+	background-image: url("images/button-hover.gif");
+}
+
+table#Base_User_Login td.label {
+	font-weight: normal;
+	width: 225px;
+	height: 30px;
+	font-size: 11px;
+	color: #000000;
+}
+
+table#Base_User_Login td.input {
+	font-weight: normal;
+	width: 325px;
+	height: 30px;
+}
+
+table#Base_User_Login td.input input {
+	font-size: 11px;
+}
+
+table#Base_User_Login td.submit_button {
+	text-align: center;
+	height: 35px;
+}
+
+table#Base_User_Login td.submit_button input {
+	font-size: 11px;
+}
+
+table#Base_User_Login td.header_tail {
+	width: 550px;
+	height: 200px;
+	background-color: #FFFFFF;
+}
+
+table#Base_User_Login td.footer {
+	color: #336699;
+	font-size: 11px;
+	text-align: center;
+	height: 40px;
+	vertical-align: top;
+}
+
+table#Base_User_Login td.footer a {
+	font-weight: bold;
+	color: #336699;
+}
+
+table#Base_User_Login td.footer a:hover {
+	color: #993333;
+}
+
+table#Base_User_Login td.recover_password {
+	text-align: center;
+	color: #336699;
+	font-weight: bold;
+	height: 25px;
+}
+
+table#Base_User_Login td.recover_password a {
+	color: #777777;
+}
+
+table#Base_User_Login td.recover_password a:hover {
+	color: #000000;
+}
+
+table#Base_User_Login td.autologin {
+	text-align: center;
+	height: 30px;
+	color: #777777;
+}

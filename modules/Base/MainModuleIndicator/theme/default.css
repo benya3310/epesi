@@ -1,0 +1,17 @@
+.text {
+    float: left;
+    width: 266px;
+}
+
+.help {
+    float: left;
+    width: 21px;
+    text-align: left;
+}
+
+.help img {
+    border: none;
+}
+
+.help:hover {
+}

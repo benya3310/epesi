@@ -1,0 +1,106 @@
+/* label */
+
+#CRM_Tasks .label {
+    color: white;
+    background-color: #336699;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+/* data */
+
+#CRM_Tasks .data {
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: white;
+    text-align: left;
+}
+
+#CRM_Tasks .data input,
+#CRM_Tasks .data select,
+#CRM_Tasks .data textarea {
+    border: 0px;
+    background-color: #e6ecf2;
+    /*width: 100%;*/
+}
+
+#CRM_Tasks .data input[type="checkbox"],
+#CRM_Tasks .data input[type="radio"] {
+    width: auto;
+}
+
+#CRM_Tasks .data input:focus,
+#CRM_Tasks .data select:focus,
+#CRM_Tasks .data textarea:focus {
+    background-color: #ffffa5;
+}
+
+/* submit button */
+
+#CRM_Tasks .submit input {
+    color: white;
+    width: 100px;
+    height: 20px;
+    border: none;
+    background-color: #336699;
+    background-image: url('images/header-blue.gif');
+    background-repeat: repeat-x;
+}
+
+#CRM_Tasks .submit input:hover {
+    background-image: url('images/header-blue-hover.gif');
+}
+
+/* empty */
+
+#CRM_Tasks .empty {
+    width: 20px;
+}
+
+
+
+
+.CRM_Tasks__table {
+    width: 100%;
+    vertical-align: middle;
+    height: 31px;
+}
+
+.CRM_Tasks__table .icon {
+    width: 32px;
+    height: 27px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    vertical-align: top;
+    background-color: #666666;
+    background-image: url('images/dark-gray.gif');
+}
+
+.CRM_Tasks__table .icon img {
+    position: absolute;
+    clip: rect(0px 32px 28px 0px);
+}
+
+.CRM_Tasks__table .name {
+    width: 290px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 7px;
+    height: 24px;
+    vertical-align: top;
+    background-image: url('images/dark-gray-gradient.gif');
+    background-repeat: repeat-y;
+}
+
+.CRM_Tasks__table .required_fav_info {
+    color: #777777;
+    text-align: right;
+    padding-right: 20px;
+}

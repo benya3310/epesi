@@ -1,0 +1,88 @@
+#Browsing_records {
+    vertical-align: top;
+    width: 100%;
+}
+
+#Browsing_records .icon {
+    width: 32px;
+    height: 32px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    vertical-align: top;
+    background-color: #666666;
+    background-image: url('images/dark-gray.gif');
+}
+
+#Browsing_records .icon img {
+    position: absolute;
+    clip: rect(0px 32px 28px 0px);
+}
+
+#Browsing_records .name {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-top: 7px;
+    height: 24px;
+    vertical-align: top;
+    background-image: url('images/dark-gray-gradient.gif');
+    background-repeat: repeat-y;
+}
+
+#Browsing_records .filters {
+    text-align: right;
+    vertical-align: top;
+}
+
+#Browsing_records .filters_button {
+    float: right;
+    width: 100px;
+    height: 20px;
+    background-image: url('images/header-blue.gif');
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#Browsing_records .filters_button:hover {
+    background-image: url('images/header-blue-hover.gif');
+}
+
+#Browsing_records .filters_button #filters_button_text {
+    display: block;
+    float: right;
+    width: 80px;
+    padding-top: 4px;
+    text-align: center;
+    color: white;
+}
+
+#Browsing_records .filters_button #filters_button_icon_up,
+#Browsing_records .filters_button #filters_button_icon_down {
+    display: block;
+    float: right;
+    width: 14px;
+    height: 14px;
+    margin: 3px;
+    background-repeat: no-repeat;
+}
+
+#Browsing_records .filters_button #filters_button_icon_up {
+    background-image: url('images/roll-up.png');
+}
+
+#Browsing_records .filters_button:hover #filters_button_icon_up {
+    background-image: url('images/roll-up-hover.png');
+}
+
+#Browsing_records .filters_button #filters_button_icon_down {
+    background-image: url('images/roll-down.png');
+}
+
+#Browsing_records .filters_button:hover #filters_button_icon_down {
+    background-image: url('images/roll-down-hover.png');
+}

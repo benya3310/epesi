@@ -1,0 +1,27 @@
+#google {
+    background-color: #f0f0f0;
+    background-image: url('Applets/Google/background.png');
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 100px;
+}
+
+#google input {
+    height: 16px;
+    border: 1px solid #B3B3B3;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+#google .button {
+    border: none;
+    background-image: url('images/button.gif');
+    color: #ffffff;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+}
+
+#google .button:hover {
+    background-image: url('images/button-hover.gif');
+}

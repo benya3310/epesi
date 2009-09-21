@@ -1,0 +1,64 @@
+#Utils_Planner__grid .header {
+	background-color: #AAAAFF;
+	width: 80px;
+}
+
+#Utils_Planner__grid .used {
+	border: 1px solid;
+}
+
+#Utils_Planner__grid .noconflict.used {
+	background-color: #66FF66;
+}
+#Utils_Planner__grid .noconflict.unused {
+	background-color: #BBFFBB;
+}
+
+#Utils_Planner__grid .conflict.used {
+	background-color: #FF4444;
+}
+#Utils_Planner__grid .conflict.unused {
+	background-color: #FFBBBB;
+}
+
+#Utils_Planner__resource_table option.conflict,
+#Utils_Planner__resource_table select.conflict {
+	background-color: #FFBBBB;
+}
+
+#Utils_Planner__resource_table option.noconflict,
+#Utils_Planner__resource_table select.noconflict {
+    background-color: #FFFFFF;
+}
+
+#Utils_Planner__resource_table .label {
+    background-color: #336699;
+    color: #FFFFFF;
+    border-bottom: 1px solid #B3B3B3;
+    height: 20px;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50px;
+    text-align: left;
+}
+
+#Utils_Planner__resource_table .data {
+    text-align: left;
+}
+
+#Utils_Planner__resource_table .data input,
+#Utils_Planner__resource_table .data textarea {
+    border: 0px;
+    background-color: #FFFFFF;
+    width: 99%;
+}
+
+#Utils_Planner__resource_table .data select {
+    border: 0px;
+    width: 99%;
+}
+
+#Utils_Planner__time_frames table {
+	width: 100%;
+}
