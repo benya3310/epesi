@@ -99,7 +99,7 @@ class Utils_RecordBrowser_Reports extends Module {
 		if (!is_array($val)) $val = array($val);
 		if (isset($format['currency']) || isset($format['numeric']) || isset($format['percent']))
 			$format['fade_out_zero'] = 1;
-		if (isset($format['currency']) && empty($val)) $val = array(0=>0);
+		if (isset($format['currency']) && empty($val)) $val = array(Base_User_SettingsCommon::get('Utils_CurrencyField', 'default_currency')=>0);
 		$css_class = '';
 		$style = '';
 		$attrs = '';
@@ -332,7 +332,7 @@ class Utils_RecordBrowser_Reports extends Module {
 
 	public function make_table() {
 		if ($this->row_summary!==false)
-			$this->gb_captions[] = array('name'=>$this->row_summary['label']);
+			$this->gb_captions[] = array('name'=>$this->row_summary['label'], 'wrapmode'=>'nowrap');
 		$this->new_table_page();
 
 		if ($this->pdf) {

@@ -74,10 +74,17 @@ class Utils_PopupCalendarCommon extends ModuleCommon {
 			if (!is_numeric($default)) $default = strtotime($default);
 			$args = date('Y',$default).','.(date('n',$default)-1).','.(date('d',$default));
 		} else $args = '';
-		eval_js(
-			'var datepicker_'.$name.' = new Utils_PopupCalendar("'.Epesi::escapeJS($function,true,false).'", \''.$name.'\',\''.$mode.'\',\''.$first_day_of_week.'\');'.
-			'datepicker_'.$name.'.show('.$args.')'
-		);
+
+		$js = 'var datepicker_'.$name.' = new Utils_PopupCalendar("'.Epesi::escapeJS($function,true,false).'", \''.$name.'\',\''.$mode.'\',\''.$first_day_of_week.'\',';
+		$months = array('January','February','March','April','May','June','July','August','September','October','November','December');
+		$days = array('Sun', 'Mon','Tue','Wed','Thu','Fri','Sat');
+		foreach ($months as $k=>$m) $months[$k] = Base_LangCommon::ts('Utils_PopupCalendar', $m);
+		foreach ($days as $k=>$d) $days[$k] = Base_LangCommon::ts('Utils_PopupCalendar', $d);
+		$js .= 'new Array(\''.implode('\',\'', $months).'\'),';
+		$js .= 'new Array(\''.implode('\',\'', $days).'\')';
+		$js .= ');'.
+			'datepicker_'.$name.'.show('.$args.')';
+		eval_js($js);
 		return $ret;
 	}
 
