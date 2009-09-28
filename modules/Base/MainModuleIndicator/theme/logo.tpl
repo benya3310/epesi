@@ -1,1 +1,0 @@
-<a href="#"><img border="0" src="{if $logo}{$logo}{else}{$theme_dir}/images/logo-small.gif{/if}" width="193" height="68"></a>
